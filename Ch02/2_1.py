@@ -39,6 +39,6 @@ for i in range(TRIAL_NUMBERS):
 ax.set_xlabel('試行回数')
 ax.set_ylabel('近似エントロピー')
 ax.set_title('近似エントロピーの実験')
-# ax.legend()
+ax.legend()
 plt.legend()
 plt.show()
